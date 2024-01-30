@@ -54,7 +54,7 @@ ol {
 }
 
 .content__list-item:not(:last-of-type) {
-  margin: 0 0 30px;
+  margin: 0 0 26px;
 }
 
 .content__details {
@@ -114,6 +114,7 @@ ol {
 
 .content__card-link:active {
   background: #545050;
+  text-decoration: none;
 }
 
 .content__video-card-title {
@@ -295,6 +296,16 @@ ol {
 
 .more-button {
   width: 100%;
+}
+
+.more-button:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+} 
+
+.more-button:active {
+  background: #545050;
+  text-decoration: none;
 }
 
 .button:focus {
