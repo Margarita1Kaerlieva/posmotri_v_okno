@@ -54,7 +54,7 @@ ol {
 }
 
 .content__list-item:not(:last-of-type) {
-  margin: 0 0 26px;
+  margin: 0 0 35px;
 }
 
 .content__details {
@@ -63,7 +63,6 @@ ol {
  position: relative;
  width: 100%;
  block-size: 100%;
- gap: 20px;
 }
 
 .content__video-card {
@@ -253,6 +252,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .visually-hidden {
