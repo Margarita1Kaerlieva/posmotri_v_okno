@@ -75,7 +75,7 @@ ol {
   object-fit: cover;
   object-position: center;
   width: 194px; 
-  max-height: 103px;
+  height: 103px;
   flex-shrink: 0;
 }
 
